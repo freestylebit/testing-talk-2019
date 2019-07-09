@@ -4,7 +4,8 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "words-to-numbers": "^1.5.1"
   },
   "devDependencies": {
     "eslint-config-airbnb": "^17.1.1",
