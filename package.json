@@ -20,14 +20,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.test.{js,jsx,ts,tsx}"
-    ]
+    "test": "react-scripts test --coverage --watchAll=false",
+    "watch": "react-scripts test",
+    "nightwatch": "./node_modules/.bin/nightwatch"
   },
   "browserslist": {
     "production": [
