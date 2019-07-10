@@ -7,5 +7,5 @@ it('should fetch users', () => {
   const resp = { data: 'Rick Astley' };
   axios.get.mockResolvedValue(resp);
 
-  return Users.all().then(data => expect(data).toEqual('Rick Astley'));
+  return Users().then(data => expect(data).toEqual('Rick Astley'));
 });
