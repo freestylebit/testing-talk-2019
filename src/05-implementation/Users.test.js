@@ -11,10 +11,14 @@ import VeryComplicatedCode from './VeryComplicatedCode';
 //    Users().then(data => expect(data).toEqual('Rick Astley'));
 // });
 
-jest.mock('./VeryComplicatedCode');
+// jest.mock('./VeryComplicatedCode');
 
 it('should equal 11', () => {
-  VeryComplicatedCode.mockImplementation(() => 9);
+  // VeryComplicatedCode.mockImplementation(() => 9);
+  const generator = Users();
 
-  expect(Users()).toEqual(16);
+  expect(generator.next().value).toEqual(0);
+  expect(generator.next().value).toEqual(1);
+  expect(generator.next().value).toEqual(2);
+  expect(generator.next().value).toEqual(7);
 });
