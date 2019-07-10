@@ -1,5 +1,6 @@
 import axios from 'axios';
 import Users from './Users';
+import VeryComplicatedCode from './VeryComplicatedCode';
 
 jest.mock('axios');
 
@@ -9,3 +10,6 @@ it('should fetch users', () => {
 
   return Users().then(data => expect(data).toEqual('Rick Astley'));
 });
+
+// jest.mock('./VeryComplicatedCode');
+// VeryComplicatedCode.mockImplementation(() => 'NEVER');
