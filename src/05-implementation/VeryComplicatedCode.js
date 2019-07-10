@@ -1,1 +1,1 @@
-export default () => 'Together Forever';
+export default () => 4;
