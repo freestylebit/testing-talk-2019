@@ -8,10 +8,12 @@ import VeryComplicatedCode from './VeryComplicatedCode';
 function* Users() {
   let tracker = 0;
   while (true) {
-    if (tracker > 2) {
-      yield VeryComplicatedCode();
+    if (tracker > 3) {
+      tracker += VeryComplicatedCode();
+      yield tracker;
+    } else {
+      yield tracker++;
     }
-    yield tracker++;
   }
 }
 
