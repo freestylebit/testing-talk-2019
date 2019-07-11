@@ -8,7 +8,7 @@ it('multiplies two numbers together and returns a product', () => {
   expect(Math.MultiplyTwoNumbersTogether(3, 2)).toEqual(6);
 });
 
-// Very propritary code below
+// Very proprietary code below
 //
 //
 //
@@ -57,7 +57,7 @@ it('multiplies two numbers together and returns a product', () => {
 //   expect(Math.MultiplyTwoNumbersTogether(0.1, 0.2)).toEqual(0.02);
 // });
 
-// it('tries to multply two strings and returns a product', () => {
+// it('tries to multiply two strings and returns a product', () => {
 //   expect(Math.MultiplyTwoNumbersTogether('seven', 'seven')).toEqual(49);
 // });
 
