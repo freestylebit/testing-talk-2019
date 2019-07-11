@@ -1,8 +1,12 @@
 {
   "extends": ["airbnb", "plugin:jsx-a11y/recommended"],
-  "plugins": ["scanjs-rules", "no-unsafe-innerhtml"],
+  "plugins": ["no-unsanitized", "no-unsafe-innerhtml"],
   "env": {
     "browser": true,
     "es6": true
+  },
+  "rules": {
+    "no-unsanitized/method": "error",
+    "no-unsanitized/property": "error"
   }
 }
