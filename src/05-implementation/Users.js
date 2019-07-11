@@ -1,4 +1,3 @@
-import axios from 'axios';
 import VeryComplicatedCode from './VeryComplicatedCode';
 
 function* Users() {

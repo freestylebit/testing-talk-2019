@@ -1,4 +1,3 @@
-import axios from 'axios';
 import Users from './Users';
 import VeryComplicatedCode from './VeryComplicatedCode';
 
