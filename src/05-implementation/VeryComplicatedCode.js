@@ -1,1 +1,1 @@
-export default () => 7;
+export default () => parseInt(Math.random() * 10);
